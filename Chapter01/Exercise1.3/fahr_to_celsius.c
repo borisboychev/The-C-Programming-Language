@@ -19,3 +19,5 @@ int main()
         fahr = fahr + step;
     }
 }
+
+//Exercise 1.3 from page 13
