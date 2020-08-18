@@ -7,4 +7,4 @@ void main()
 }
 
 //Exercise 1.6 from page 18
-//expression getchar() returns 1 if it is != EOF and 0 is it is == EOF
+//expression getchar() returns 1 if it is != EOF
