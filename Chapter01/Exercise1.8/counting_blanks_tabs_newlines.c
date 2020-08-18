@@ -8,17 +8,11 @@ int main()
     while ((c = getchar()) != EOF)
     {
         if (c == '\t')
-        {
             ++tabs;
-        }
         else if (c == ' ')
-        {
             ++blanks;
-        }
         else if (c == '\n')
-        {
             ++newlines;
-        }
     }
 
     printf("Blanks: %d | Tabs: %d | NewLines: %d", blanks, tabs, newlines);
