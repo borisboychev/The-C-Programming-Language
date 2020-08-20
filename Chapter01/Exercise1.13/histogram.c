@@ -11,12 +11,10 @@ int main()
     status = OUT;
     length = 0;
 
-    int word_length[MAX_LENGTH + 1];
+    int word_length[MAX_LENGTH];
 
-    for (int i = 0; i <= MAX_LENGTH; ++i)
-    {
+    for (int i = 0; i < MAX_LENGTH; ++i)
         word_length[i] = 0;
-    }
 
     while ((c = getchar()) != EOF)
     {
@@ -33,7 +31,6 @@ int main()
         {
             if (status == IN)
             {
-
                 ++word_length[length - 1];
                 status = OUT;
             }
@@ -56,3 +53,5 @@ int main()
     }
     return 0;
 }
+
+//Exercise 1.13 from page 25
