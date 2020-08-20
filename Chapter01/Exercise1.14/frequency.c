@@ -23,7 +23,7 @@ int main()
     }
 
     for (int i = 0; i < MAX_LENGTH; ++i)
-        printf("%d", letters[i]);
+        printf("%2d", letters[i]);
 
     printf("HISTOGRAM\n");
 
