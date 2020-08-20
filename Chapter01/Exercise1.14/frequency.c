@@ -17,9 +17,9 @@ int main()
     while ((c = getchar()) != EOF)
     {
         if (c >= 'A' && c <= 'Z')
-            ++letters[c - 65];
+            ++letters[c - 65]; // ascii decimal number is 65 for capital A and c - 65 gives a valid index
         else if (c >= 'a' && c <= 'z')
-            ++letters[c - 97];
+            ++letters[c - 97]; // ascii decimal number is 97 for lowercase a and c - 97 gives a valid index
     }
 
     for (int i = 0; i < MAX_LENGTH; ++i)
