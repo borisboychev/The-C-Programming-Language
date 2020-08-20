@@ -37,3 +37,5 @@ int main()
 
     return 0;
 }
+
+//Exercise 1.14 from page 25
