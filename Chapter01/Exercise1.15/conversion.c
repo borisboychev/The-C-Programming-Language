@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int convert(float lower, float upper, float step, float fahr, float celsius);
+void convert(float lower, float upper, float step, float fahr, float celsius);
 int main()
 {
     printf("---Celsius To Fahrenheit---\n");
@@ -13,7 +13,7 @@ int main()
     convert(lower, upper, step, fahr, celsius);
 }
 
-int convert(float lower, float upper, float step, float fahr, float celsius)
+void convert(float lower, float upper, float step, float fahr, float celsius)
 {
     fahr = lower;
 
