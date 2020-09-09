@@ -1,3 +1,7 @@
+/*
+* Author: Boris Boychev (borisboychev007@gmail.com)
+*/
+
 #include <stdio.h>
 
 int main()

@@ -1,5 +1,8 @@
 
 #include <stdio.h>
+/*
+* Author: Boris Boychev (borisboychev007@gmail.com)
+*/
 
 int main()
 {

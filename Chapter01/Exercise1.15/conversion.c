@@ -1,3 +1,7 @@
+/*
+* Author: Boris Boychev (borisboychev007@gmail.com)
+*/
+
 #include <stdio.h>
 
 void convert(float lower, float upper, float step, float fahr, float celsius);
